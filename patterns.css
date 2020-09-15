@@ -6,14 +6,36 @@ table {
     border: 1px solid black;
 }
 
-#first tr td:nth-of-type(n) {
+
+
+#first tr:nth-child(3n-2) td:nth-child(3n-2) {
     background-color: #F16F12;
 }
-#first tr td:nth-of-type(2n) {
-    background-color: #666666;
+#first tr:nth-child(3n-2) td:nth-child(3n-1) {
+    background-color: #F8B16D;
 }
-#first tr td:nth-of-type(3n) {
-    background-color: #cccccc;
+#first tr:nth-child(3n-2) td:nth-child(3n) {
+    background-color: #A74B08;
+}
+
+#first tr:nth-child(3n-1) td:nth-child(3n) {
+    background-color: #F16F12;
+}
+#first tr:nth-child(3n-1) td:nth-child(3n-2) {
+    background-color: #F8B16D;
+}
+#first tr:nth-child(3n-1) td:nth-child(3n-1) {
+    background-color: #A74B08;
+}
+
+#first tr:nth-child(3n) td:nth-child(3n-1) {
+    background-color: #F16F12;
+}
+#first tr:nth-child(3n) td:nth-child(3n) {
+    background-color: #F8B16D;
+}
+#first tr:nth-child(3n) td:nth-child(3n-2) {
+    background-color: #A74B08;
 }
 
 
