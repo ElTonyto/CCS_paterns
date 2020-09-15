@@ -1,0 +1,22 @@
+table td {
+    height: 40px;
+    width: 40px;
+}
+table {
+    border: 1px solid black;
+}
+
+
+#second tr td:nth-of-type(n) {
+    background-color: #cccccc;
+}
+#second tr td:nth-of-type(2n) {
+    background-color: #999999;
+}
+#second tr td:nth-of-type(3n) {
+    background-color: #666666;
+}
+#second tr td:nth-of-type(4n) {
+    background-color: #333333;
+}
+
