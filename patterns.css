@@ -6,8 +6,9 @@ table {
     border: 1px solid black;
 }
 
+/*First pattern CSS*/
 
-
+/* Line 3n-2 */
 #first tr:nth-child(3n-2) td:nth-child(3n-2) {
     background-color: #F16F12;
 }
@@ -18,6 +19,7 @@ table {
     background-color: #A74B08;
 }
 
+/* Line 3n-1 */
 #first tr:nth-child(3n-1) td:nth-child(3n) {
     background-color: #F16F12;
 }
@@ -28,6 +30,7 @@ table {
     background-color: #A74B08;
 }
 
+/* Line 3n */
 #first tr:nth-child(3n) td:nth-child(3n-1) {
     background-color: #F16F12;
 }
@@ -38,7 +41,7 @@ table {
     background-color: #A74B08;
 }
 
-
+/* Second pattern CSS */
 #second tr td:nth-child(4n-3) {
     background-color: #cccccc;
 }
@@ -52,8 +55,19 @@ table {
     background-color: #333333;
 }
 
-
-
+/* Third pattern */
+#third tr:nth-child(odd) td:nth-child(odd) {
+    background-color: white;
+}
+#third tr:nth-child(odd) td:nth-child(even) {
+    background-color: #E67F7E;
+}
+#third tr:nth-child(even) td:nth-child(odd) {
+    background-color: #E67F7E;
+}
+#third tr:nth-child(even) td:nth-child(even) {
+    background-color: #D94A3A;
+}
 
 
 
